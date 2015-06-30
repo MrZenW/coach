@@ -1,4 +1,4 @@
-# coach
+# Coach
 Coach is a ci(codeigniter) router plugins,It can allow you router mapping to files, not controler and method.
 
 # How to use
@@ -13,4 +13,4 @@ $this->model('model_name'); //this functin return loaded model object value
 
 $this->getUri(); //return request uri
 
-$this->getArgs(0~n); //return array index value by uri use explode by "/" 
+$this->getArgs(1~n); //return array index value by uri use explode by "/" 

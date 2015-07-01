@@ -5,13 +5,13 @@
 # How to use
 1. **Download Coach**
 2. **Modify config**
-    * open config/config.php, edit : "$config['subclass_prefix'] = 'COACH_';"
+    * open file "config/config.php", edit : "$config['subclass_prefix'] = 'COACH_';"
     
-	* open config/routes.php, append a line code : "$route['.*'] = $route['default_controller'];"
+	* open file "config/routes.php", append a line of code to the end of the file : "$route['.*'] = $route['default_controller'];"
 	
-	* open controllers/Welcome.php, the class's super class modify to COACH_Controller
+	* open controllers/Welcome.php, the superclass of controller class changed to COACH_Controller
 3. **Write action file** 
-    * Go to "actions" folder, root.php is default home (also is 404 controller), if you URI is /user/info then action file is actions/root/user/info.php
+    * Go to "actions" folder,  inside the root.php is default home (is also 404 controller), if you request URI is "/user/info" then action file is "actions/root/user/info.php"
 
 # APIs
 ####$this->view('template_file',$template_data);

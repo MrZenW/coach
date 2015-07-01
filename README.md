@@ -17,7 +17,7 @@
 ####$this->view('template_file',$template_data);
 
 ####$this->model('model_name'); 
-	this functin return loaded model object value
+	this function return "$ci->load->model" loaded's model object
 
 ####$this->getUri(); 
 	return request uri

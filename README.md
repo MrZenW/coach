@@ -2,6 +2,8 @@
 
 **Coach is a ci(codeigniter) router plugins,It can allow you router mapping to files, not controller class and method.**
 
+[TOC]
+
 # How to use
 1. **Download Coach**
 2. **Modify config**
@@ -13,7 +15,7 @@
 	
 	3. open controllers/Welcome.php, the superclass of controller class changed to **COACH_Controller**
 3. **Write action file** 
-    * Go to "actions" folder,  inside the root.php is default home (is also 404 controller), if you request URI is "/user/info" then action file is "actions/root/user/info.php"
+    * **Go to "actions" folder,  inside the root.php is default home (is also 404 controller), if you request URI is "/user/info" then action file is "actions/root/user/info.php"**
 
 # APIs
 

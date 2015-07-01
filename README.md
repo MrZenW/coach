@@ -17,13 +17,18 @@
 
 # APIs
 
+#### _application_init function
+>The function is empty at coach, but subclass (Welcome controller) can to realize it.
+>each http request will do call the function to initialization system, so you can write code in the function do your want do some jobs
+
 ####$this->view('template_file',$template_data);
+>**!:This is coach's template render function, it isn't ci's one.**
 
 ####$this->model('model_name'); 
->this function return "$ci->load->model" loaded's model object
+>This function return "$ci->load->model" loaded's model object
 
 ####$this->getUri(); 
->return request uri
+>This function return request uri
 
 ####$this->getArgs(1~n); 
->return array index value by uri use "/" explode
+>This function return array index value by uri use "/" explode

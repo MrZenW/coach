@@ -1,6 +1,6 @@
 # Coach
 
-**Coach is a ci(codeigniter) router plugins,It can allow you router mapping to files, not controler and method.**
+**Coach is a ci(codeigniter) router plugins,It can allow you router mapping to files, not controller class and method.**
 
 # How to use
 1. **Download Coach**

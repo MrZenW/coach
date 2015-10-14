@@ -33,3 +33,7 @@
 
 ####$this->getArgs(1~n); 
 >This function return array index value by uri use "/" explode
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/zenboss/coach/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
